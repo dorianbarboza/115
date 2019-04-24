@@ -1,0 +1,27 @@
+Este ejemplo fue bajado de http://myphp.webcindario.com
+
+cualquier duda ó corrección a 
+
+rolandocc2@hotmail.com
+
+Copyright 2004
+
+---------------
+
+instalación:
+
+- si no tienes un administrador de bases de datos para mysql, bajalo,
+	te recomiendo el mysqlfront o el mysqlcc.
+
+-abre y ejecuta el archivo db.sql
+	te va a crear dos tablas en la base de datos que tengas abierta 	en el momento en que lo ejecutas, asegurate de saber el nombre 		de la base para después modificar el archivo conexion.php
+
+- copia el directorio descomprimido a algun lugar dentro del directorio 	accesible por tu webserver, te recomiendo en la raiz del 		servidor, osea en /chat/ , es importante que no cambies el 		nombre de ningun archivo no directorio.
+
+- modifica el archivo conexion.php para que especifiques un usuario y 	password validos para tu servidor mysql, además de el nombre de 	la base de datos.
+
+-ejecuta el archivo login.php.
+-debes tener las cookies habilitadas para el navegador, y para php.ini.
+-los usuarios sin actividad se borran luego de 4 minutos
+
+<--------------fin----------------->
